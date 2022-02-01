@@ -1,7 +1,7 @@
 import { Stack } from "."
 
 describe('Stack', () => {
-  it('should insert a element at the top of the stack', () => {
+  it('should insert an element at the top of the stack', () => {
     const stack = new Stack()
 
     stack.push<number>(1)
